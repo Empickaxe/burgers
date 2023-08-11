@@ -1,0 +1,343 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+    background-color: #191411;
+    font-family: "Merriweather", sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.main {
+    overflow: hidden;
+    background-image: url('images/main_bg.png');
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+    width: 260px;
+    height: 62px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    vertical-align: bottom;
+}
+
+.menu{
+    margin-left: 191px;
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 88px;
+}
+
+.menu-item a {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.currency {
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    line-height: 32px;
+    margin-left: auto;
+    user-select: none;
+}
+
+.main-content {
+    padding-top: 103px;
+    padding-bottom: 199px;
+}
+
+.main-content .container {
+    position: relative;
+}
+
+.main-info {
+    max-width: 608px;
+}
+
+.main-small-info {
+    background: #D3320f;
+    border-radius: 100px;
+    padding: 12px 16px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.main-title {
+    font-weight: 700;
+    line-height: 130%;
+    font-size: 120px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+    font-family: "Merriweather", sans-serif;
+}
+
+.main-text {
+    line-height: 29px;
+    font-size: 24px; 
+    margin-bottom: 56px;
+}
+
+.main-image {
+    position: absolute;
+    top: -123px;
+    left: calc(100% - 991px);
+}
+
+.whytitle, .burgerstitle{
+  text-align:center;
+  widht:100%;
+  margin-bottom:40px;
+  font-size:40px;
+}
+
+.whylist {
+  list-style: none;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(3, 280px);
+  justify-content: center;
+}
+
+.whyitem{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.whyitemtext{
+  text-align:center;
+  font-size:18px;
+  margin-bottom:70px;
+}
+
+.whyimg{
+  margin-bottom:15px;
+}
+
+.whyitemtitle{
+  margin-bottom:10px;
+  font-size:20px;
+  text-align:center;
+}
+
+.burgersitem{
+  padding:30px;
+  background: #211A16;
+  border-radius: 16px;
+  border: 1px solid #353535;
+}
+
+.burgersitemtitle{
+  margin-bottom:24px;
+  font-size:24px;
+}
+
+.burgersitemtext{
+  margin-bottom:24px;
+  font-size:16px;
+}
+
+.burgersbtn {
+  width:182px;
+  height:62px;
+}
+
+.burgersinfo{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.burgerslist{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 384px);
+    list-style: none;
+}
+
+
+.burgersimgwrap{
+    height: 250px;
+}
+
+.burgersimg{
+    width: 100%;
+}
+
+.infoprice, .infogramm{
+    display: block;
+}
+
+.infogramm{
+    font-size: 16px;
+    color: #757575;
+}
+
+.infoprice{
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.ordercontainer{
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.orderimg{
+    position: absolute;
+    top: 0;
+    right: calc(100% - 764px);
+}
+
+.orderform{
+    width: 426px;
+    margin-top: 60px;
+    background: #211A16;
+    border-radius: 16px;
+    border: 1px solid #353535;
+    box-sizing: border-box;
+    padding: 60px 40px;
+    margin-left: 674px;
+    margin-top: 60px;
+}
+
+.ordertitle{
+  text-align:center;
+  widht:100%;
+  margin-top: 70px;
+  font-size:40px;
+}
+
+.orderinput{
+    padding: 20px 10px;
+    width: 306px;
+    background: #211A16;
+    border-radius: 10px;
+    border: 1px solid #E2B438;
+    margin-bottom: 30px;
+}
+
+.formtitle{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.orderbtn{
+    width: 326px;
+}
+
+.footercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.footertext{
+    font-size: 20px;
+}
+
+.why{
+    margin-bottom: 100px;
+    background-image: url("images/whybg.png");
+    background-size: initial;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.burgers{
+    background-image: url("images/burgers_bg.png");
+    background-size: 1400px;
+    background-position: top center;
+}
+
+.burgersbtnspan{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-item a{
+    position: relative;
+}
+
+.menu-item a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    transition: 0.2s linear;
+}
+
+.menu-item:hover a::before{
+    width: 100%;
+}
+
+.button{
+    transition: 0.2s linear;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.burgerstextwrap{
+    height: 190px;
+    overflow: hidden;
+}
